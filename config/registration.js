@@ -32,38 +32,40 @@ export const EVENT_CONFIG = {
     {
       dayNumber: "01",
       dayLabel: "DAY ONE",
-      dateNumber: "18",
-      monthYear: "JUNE 2026",
+      dateNumber: "25",
+      monthYear: "SEPTEMBER 2026",
       description: "Opening Ceremony & Committee Sessions Begin",
     },
     {
       dayNumber: "02",
       dayLabel: "DAY TWO",
-      dateNumber: "19",
-      monthYear: "JUNE 2026",
+      dateNumber: "26",
+      monthYear: "SEPTEMBER 2026",
       description: "Full Committee Debates & Delegate Social Night",
     },
     {
       dayNumber: "03",
       dayLabel: "DAY THREE",
-      dateNumber: "20",
-      monthYear: "JUNE 2026",
+      dateNumber: "27",
+      monthYear: "SEPTEMBER 2026",
       description: "Resolution Voting & Closing Ceremony & Awards",
     },
   ],
 
-  // Venue Data (Matching Client Design)
+  // Venue Data (Classified / Mystery State)
   venues: [
     {
-      dates: "18TH - 19TH JUNE",
-      name: "MASTERMIND DHANMONDI CAMPUS",
-      description: "Opening ceremony and full committee sessions.",
+      dates: "DAYS 1 & 2 • 25TH - 26TH SEPT",
+      name: "CLASSIFIED LOCATION I",
+      code: "VENUE // CLASSIFIED",
+      description: "Opening ceremony and full committee sessions hosted at a premier central venue in Dhaka.",
       isPrimary: true,
     },
     {
-      dates: "20TH JUNE",
-      name: "Le MERIDIEN",
-      description: "Closing ceremony, awards, and final moments.",
+      dates: "DAY 3 • 27TH SEPT",
+      name: "CLASSIFIED LOCATION II",
+      code: "VENUE // CONFIDENTIAL",
+      description: "Grand closing ceremony, awards, and final moments hosted at an elite 5-star destination.",
       isPrimary: false,
     },
   ],
