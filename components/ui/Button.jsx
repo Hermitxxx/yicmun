@@ -19,11 +19,11 @@ export default function Button({
 
   const variants = {
     primary:
-      "bg-gradient-to-r from-[#00FF87] to-[#00D4FF] text-[#050B1A] font-semibold hover:shadow-[0_0_25px_rgba(0,255,135,0.4)] border border-[#00FF87]/50",
+      "bg-gradient-to-r from-[#00FF95] via-[#00E5FF] to-[#00FF95] text-[#040817] font-bold shadow-[0_0_30px_rgba(0,255,149,0.55)] border border-[#00FF95] hover:shadow-[0_0_40px_rgba(0,255,149,0.8)]",
     secondary:
-      "bg-[#0A1628]/80 text-[#E8F4F8] border border-[#E8F4F8]/15 hover:border-[#00FF87]/50 hover:bg-[#0A1628] hover:shadow-[0_0_20px_rgba(0,212,255,0.2)]",
+      "bg-[#0C1A33] text-[#FAFBFC] font-semibold border-2 border-[#00E5FF]/60 hover:border-[#00FF95] hover:bg-[#102447] hover:shadow-[0_0_30px_rgba(0,229,255,0.45)]",
     accent:
-      "bg-gradient-to-r from-[#7B2FBE] via-[#FF6EC7] to-[#00FF87] text-[#FAFBFC] font-semibold hover:shadow-[0_0_30px_rgba(255,110,199,0.35)] border border-[#FF6EC7]/40",
+      "bg-gradient-to-r from-[#8B5CF6] via-[#FF33B5] to-[#00FF95] text-[#FAFBFC] font-bold shadow-[0_0_35px_rgba(255,51,181,0.55)] border border-[#FF33B5]/70 hover:shadow-[0_0_45px_rgba(255,51,181,0.8)]",
   };
 
   const sizes = {

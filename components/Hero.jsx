@@ -73,10 +73,10 @@ export default function Hero() {
                   transition={{ duration: 0.5, delay: 0.6 + idx * 0.15 }}
                   className={
                     idx === 0
-                      ? "text-[#00FF87]"
+                      ? "text-[#00FF95] glow-text-green"
                       : idx === 1
-                      ? "text-[#00D4FF]"
-                      : "text-[#FF6EC7]"
+                      ? "text-[#00E5FF] glow-text-cyan"
+                      : "text-[#FF33B5] drop-shadow-[0_0_15px_rgba(255,51,181,0.6)]"
                   }
                 >
                   {word}

@@ -125,7 +125,7 @@ export default function EarlyBirdCountdown() {
                   {timeUnits.map((unit) => (
                     <div
                       key={unit.label}
-                      className="p-4 sm:p-5 rounded-2xl bg-[#0A1628]/90 border border-[#E8F4F8]/15 hover:border-[#00FF87]/50 transition-all duration-300 shadow-lg"
+                      className="p-4 sm:p-5 rounded-2xl bg-[#0E1E38] border-2 border-[#00FF95]/40 hover:border-[#00FF95] transition-all duration-300 shadow-[0_0_20px_rgba(0,255,149,0.15)] hover:shadow-[0_0_30px_rgba(0,255,149,0.35)]"
                     >
                       <div className="h-12 sm:h-14 flex items-center justify-center overflow-hidden">
                         <AnimatePresence mode="popLayout">
@@ -135,13 +135,13 @@ export default function EarlyBirdCountdown() {
                             animate={{ y: 0, opacity: 1, scale: 1 }}
                             exit={{ y: -20, opacity: 0, scale: 0.9 }}
                             transition={{ duration: 0.3 }}
-                            className="text-3xl sm:text-4xl font-extrabold font-mono text-[#00FF87] tracking-wider"
+                            className="text-3xl sm:text-4xl font-extrabold font-mono text-[#00FF95] glow-text-green tracking-wider"
                           >
                             {mounted ? String(unit.value).padStart(2, "0") : "00"}
                           </motion.span>
                         </AnimatePresence>
                       </div>
-                      <span className="block text-[10px] sm:text-xs font-mono text-[#E8F4F8]/60 tracking-widest mt-1">
+                      <span className="block text-[10px] sm:text-xs font-mono text-[#00E5FF] tracking-widest mt-1 uppercase font-semibold">
                         {unit.label}
                       </span>
                     </div>
