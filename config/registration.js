@@ -5,9 +5,11 @@
 export const EVENT_CONFIG = {
   name: "Youth International Council Model United Nations",
   shortName: "YICMUN 2026",
+  session: "SESSION II · 2026",
   motto: ["DEBATE.", "DIPLOMACY.", "DIRECTION."],
   mottoText: "DEBATE. DIPLOMACY. DIRECTION.",
   dates: "25–27 September 2026",
+  formattedDates: "25TH, 26TH & 27TH SEPTEMBER 2026",
   shortDates: "25–27 Sept 2026",
   location: "Dhaka, Bangladesh",
   venue: "To Be Announced (Dhaka)",
