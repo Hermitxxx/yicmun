@@ -4,8 +4,8 @@ import PointerGlow from "@/components/effects/PointerGlow";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import EarlyBirdCountdown from "@/components/EarlyBirdCountdown";
-import EventOverview from "@/components/EventOverview";
-import EventHighlights from "@/components/EventHighlights";
+import ConferenceDays from "@/components/ConferenceDays";
+import EventVenue from "@/components/EventVenue";
 import DelegateRegistration from "@/components/DelegateRegistration";
 import CampusRegistration from "@/components/CampusRegistration";
 import EventDetails from "@/components/EventDetails";
@@ -25,8 +25,8 @@ export default function Home() {
         <Navbar />
         <Hero />
         <EarlyBirdCountdown />
-        <EventOverview />
-        <EventHighlights />
+        <ConferenceDays />
+        <EventVenue />
         <DelegateRegistration />
         <CampusRegistration />
         <EventDetails />

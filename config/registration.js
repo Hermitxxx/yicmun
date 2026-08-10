@@ -12,7 +12,7 @@ export const EVENT_CONFIG = {
   location: "Dhaka, Bangladesh",
   venue: "To Be Announced (Dhaka)",
   organizer: "Youth International Council",
-  
+
   // Early Bird Registration Details
   earlyBird: {
     price: "৳1,750",
@@ -24,6 +24,47 @@ export const EVENT_CONFIG = {
     badge: "Limited Time Offer",
     description: "Secure your seat at Youth International Council Model United Nations before the Early Bird window closes.",
   },
+
+  // Conference Days Schedule Data (Matching Client Design)
+  conferenceDays: [
+    {
+      dayNumber: "01",
+      dayLabel: "DAY ONE",
+      dateNumber: "18",
+      monthYear: "JUNE 2026",
+      description: "Opening Ceremony & Committee Sessions Begin",
+    },
+    {
+      dayNumber: "02",
+      dayLabel: "DAY TWO",
+      dateNumber: "19",
+      monthYear: "JUNE 2026",
+      description: "Full Committee Debates & Delegate Social Night",
+    },
+    {
+      dayNumber: "03",
+      dayLabel: "DAY THREE",
+      dateNumber: "20",
+      monthYear: "JUNE 2026",
+      description: "Resolution Voting & Closing Ceremony & Awards",
+    },
+  ],
+
+  // Venue Data (Matching Client Design)
+  venues: [
+    {
+      dates: "18TH - 19TH JUNE",
+      name: "MASTERMIND DHANMONDI CAMPUS",
+      description: "Opening ceremony and full committee sessions.",
+      isPrimary: true,
+    },
+    {
+      dates: "20TH JUNE",
+      name: "Le MERIDIEN",
+      description: "Closing ceremony, awards, and final moments.",
+      isPrimary: false,
+    },
+  ],
 
   // Centralized Registration Form URLs
   registrationLinks: {
@@ -68,14 +109,14 @@ export const EVENT_CONFIG = {
   details: [
     {
       label: "Event Dates",
-      value: "25–27 September 2026",
+      value: "18–20 June 2026",
       subtext: "3 Days of Intensive Simulation",
       icon: "Calendar",
     },
     {
       label: "Location",
       value: "Dhaka, Bangladesh",
-      subtext: "Premier Central Venue",
+      subtext: "Mastermind Campus & Le Méridien",
       icon: "MapPin",
     },
     {

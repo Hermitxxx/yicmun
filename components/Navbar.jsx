@@ -18,9 +18,9 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: "About", href: "#overview" },
+    { name: "Key Dates", href: "#key-dates" },
+    { name: "Venue", href: "#venue" },
     { name: "Early Bird", href: "#early-bird" },
-    { name: "Highlights", href: "#highlights" },
     { name: "Delegate", href: "#delegate" },
     { name: "Campus", href: "#campus" },
   ];
