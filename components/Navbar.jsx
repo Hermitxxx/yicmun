@@ -25,6 +25,29 @@ export default function Navbar() {
     { name: "Campus", href: "#campus" },
   ];
 
+  const handleNavClick = (e, href) => {
+    e.preventDefault();
+    setMobileMenuOpen(false);
+
+    setTimeout(() => {
+      if (href === "#" || !href) {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        return;
+      }
+      const targetElement = document.querySelector(href);
+      if (targetElement) {
+        const navbarHeight = 80;
+        const elementPosition = targetElement.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+      }
+    }, 50);
+  };
+
   return (
     <motion.header
       initial={{ y: -20, opacity: 0 }}
@@ -40,6 +63,7 @@ export default function Navbar() {
         {/* Brand / Logo */}
         <a
           href="#"
+          onClick={(e) => handleNavClick(e, "#")}
           className="flex items-center gap-3 group focus:outline-none"
         >
           <div className="w-10 h-10 rounded-xl bg-[#0A1628] border border-[#00FF87]/30 flex items-center justify-center text-[#00FF87] group-hover:border-[#00FF87] group-hover:shadow-[0_0_15px_rgba(0,255,135,0.3)] transition-all duration-300">
@@ -61,6 +85,7 @@ export default function Navbar() {
             <a
               key={link.name}
               href={link.href}
+              onClick={(e) => handleNavClick(e, link.href)}
               className="text-xs font-medium text-[#E8F4F8]/80 hover:text-[#00FF87] px-4 py-1.5 rounded-full transition-colors relative group"
             >
               {link.name}
@@ -73,6 +98,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
           <a
             href="#early-bird"
+            onClick={(e) => handleNavClick(e, "#early-bird")}
             className="hidden sm:inline-flex items-center gap-2 px-5 py-2 rounded-full text-xs font-semibold bg-gradient-to-r from-[#00FF87] to-[#00D4FF] text-[#050B1A] hover:shadow-[0_0_20px_rgba(0,255,135,0.4)] transition-all duration-300 hover:-translate-y-0.5"
           >
             <span>Register Now</span>
@@ -105,8 +131,8 @@ export default function Navbar() {
                 <a
                   key={link.name}
                   href={link.href}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="block text-sm font-medium text-[#E8F4F8]/90 hover:text-[#00FF87] px-3 py-2 rounded-lg hover:bg-[#0A1628] transition-colors"
+                  onClick={(e) => handleNavClick(e, link.href)}
+                  className="block text-sm font-medium text-[#E8F4F8]/90 hover:text-[#00FF87] px-3.5 py-2.5 rounded-xl hover:bg-[#0A1628] transition-colors cursor-pointer"
                 >
                   {link.name}
                 </a>
@@ -114,8 +140,8 @@ export default function Navbar() {
               <div className="pt-2">
                 <a
                   href="#early-bird"
-                  onClick={() => setMobileMenuOpen(false)}
-                  className="w-full flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold bg-gradient-to-r from-[#00FF87] to-[#00D4FF] text-[#050B1A]"
+                  onClick={(e) => handleNavClick(e, "#early-bird")}
+                  className="w-full flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold bg-gradient-to-r from-[#00FF87] to-[#00D4FF] text-[#050B1A] cursor-pointer"
                 >
                   <span>Register Now</span>
                   <ArrowUpRight className="w-4 h-4" />

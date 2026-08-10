@@ -16,7 +16,7 @@ export default function DelegateRegistration() {
   ];
 
   return (
-    <section id="delegate" className="py-20 relative z-10">
+    <section id="delegate" className="py-20 relative z-10 scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <GlassCard className="relative p-8 sm:p-12 overflow-hidden border-[#00FF87]/30">
           

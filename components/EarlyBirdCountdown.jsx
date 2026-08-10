@@ -66,7 +66,7 @@ export default function EarlyBirdCountdown() {
   ];
 
   return (
-    <section id="early-bird" className="py-20 relative z-20 overflow-hidden">
+    <section id="early-bird" className="py-20 relative z-20 overflow-hidden scroll-mt-24">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

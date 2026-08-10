@@ -31,7 +31,7 @@ export default function EventOverview() {
   ];
 
   return (
-    <section id="overview" className="py-24 relative z-10">
+    <section id="overview" className="py-24 relative z-10 scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         
         {/* Section Heading */}
