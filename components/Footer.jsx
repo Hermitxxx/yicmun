@@ -115,7 +115,7 @@ export default function Footer() {
             <div className="space-y-2 text-xs text-[#E8F4F8]/70 font-mono">
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#00FF87]" />
-                <span>secretariat@yicmun.org</span>
+                <span>yicmun.official@gmail.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-[#00D4FF]" />
