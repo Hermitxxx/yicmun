@@ -29,8 +29,13 @@ const cormorantGaramond = Cormorant_Garamond({
 
 export const metadata = {
   title: "Youth International Council Model United Nations 2026 | YICMUN",
-  description: "Youth International Council Model United Nations (YICMUN) - 18–20 June. DEBATE. DIPLOMACY. DIRECTION.",
+  description: "Youth International Council Model United Nations (YICMUN) - 25–27 September. DEBATE. DIPLOMACY. DIRECTION.",
   keywords: ["Model United Nations", "YICMUN", "Youth International Council", "Diplomacy", "Debate", "Bangladesh"],
+  icons: {
+    icon: "/assets/yicmunlogo.png",
+    shortcut: "/assets/yicmunlogo.png",
+    apple: "/assets/yicmunlogo.png",
+  },
   openGraph: {
     title: "Youth International Council Model United Nations 2026",
     description: "DEBATE. DIPLOMACY. DIRECTION. Join youth leaders for international diplomacy and debate.",

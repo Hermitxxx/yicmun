@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Globe, Menu, X, ArrowUpRight } from "lucide-react";
+import { Menu, X, ArrowUpRight } from "lucide-react";
+import Image from "next/image";
 import { EVENT_CONFIG } from "@/config/registration";
 
 export default function Navbar() {
@@ -66,8 +67,14 @@ export default function Navbar() {
           onClick={(e) => handleNavClick(e, "#")}
           className="flex items-center gap-3 group focus:outline-none"
         >
-          <div className="w-10 h-10 rounded-xl bg-[#0A1628] border border-[#00FF87]/30 flex items-center justify-center text-[#00FF87] group-hover:border-[#00FF87] group-hover:shadow-[0_0_15px_rgba(0,255,135,0.3)] transition-all duration-300">
-            <Globe className="w-5 h-5 group-hover:rotate-12 transition-transform duration-300" />
+          <div className="w-10 h-10 rounded-xl bg-[#0A1628] border border-[#00FF87]/30 flex items-center justify-center p-1.5 group-hover:border-[#00FF87] group-hover:shadow-[0_0_15px_rgba(0,255,135,0.3)] transition-all duration-300">
+            <Image
+              src="/assets/yicmunlogo.png"
+              alt="Youth International Council MUN Logo"
+              width={32}
+              height={32}
+              className="object-contain group-hover:scale-110 transition-transform duration-300"
+            />
           </div>
           <div>
             <span className="block font-bold text-sm sm:text-base text-[#FAFBFC] tracking-tight group-hover:text-[#00FF87] transition-colors">

@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Globe, Mail, MapPin, ArrowUp } from "lucide-react";
+import { Mail, MapPin, ArrowUp } from "lucide-react";
+import Image from "next/image";
 import { EVENT_CONFIG } from "@/config/registration";
 
 // Clean inline SVG brand icons
@@ -58,8 +59,14 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-[#0A1628] border border-[#00FF87]/30 flex items-center justify-center text-[#00FF87]">
-                <Globe className="w-5 h-5" />
+              <div className="w-10 h-10 rounded-xl bg-[#0A1628] border border-[#00FF87]/30 flex items-center justify-center p-1.5">
+                <Image
+                  src="/assets/yicmunlogo.png"
+                  alt="YICMUN Logo"
+                  width={32}
+                  height={32}
+                  className="object-contain"
+                />
               </div>
               <div>
                 <span className="block font-bold text-base text-[#FAFBFC] tracking-tight">
