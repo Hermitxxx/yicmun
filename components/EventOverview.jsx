@@ -33,7 +33,7 @@ export default function EventOverview() {
   return (
     <section id="overview" className="py-24 relative z-10 scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
-        
+
         {/* Section Heading */}
         <SectionHeading
           eyebrow="ABOUT YICMUN 2026"
@@ -43,7 +43,7 @@ export default function EventOverview() {
 
         {/* Asymmetric Content Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-          
+
           {/* Main Story Panel */}
           <GlassCard className="lg:col-span-7 space-y-6">
             <div className="flex items-center gap-2 text-xs font-mono text-[#00FF87] uppercase tracking-wider">
@@ -51,19 +51,19 @@ export default function EventOverview() {
               <span>Event Purpose & Vision</span>
             </div>
 
-            <h3 className="text-2xl sm:text-3xl font-bold text-[#FAFBFC] leading-snug">
+            <h3 className="text-2xl sm:text-3xl font-bold text-snow leading-snug">
               Debate complex geopolitical crises. Draft actionable solutions. Lead with conviction.
             </h3>
 
-            <p className="text-base text-[#E8F4F8]/80 leading-relaxed">
+            <p className="text-base text-frost-white/80 leading-relaxed">
               Youth International Council Model United Nations is built on three uncompromising pillars: <strong className="text-[#00FF87]">Debate</strong>, <strong className="text-[#00D4FF]">Diplomacy</strong>, and <strong className="text-[#FF6EC7]">Direction</strong>. Over three intensive days from 25–27 September 2026, participants will experience high-calibre committee simulations designed to mirror real-world multilateral bodies.
             </p>
 
-            <p className="text-base text-[#E8F4F8]/80 leading-relaxed">
+            <p className="text-base text-frost-white/80 leading-relaxed">
               Whether you are an experienced delegate seeking top-tier committee competition or a first-time participant looking to refine your public speaking and negotiation skills, YICMUN provides the guidance, standard, and environment for excellence.
             </p>
 
-            <div className="pt-4 grid grid-cols-2 gap-4 border-t border-[#E8F4F8]/10 font-mono text-xs text-[#E8F4F8]/70">
+            <div className="pt-4 grid grid-cols-2 gap-4 border-t border-frost-white/10 font-mono text-xs text-frost-white/70">
               <div>
                 <span className="block text-[#00FF87] font-bold text-base">25–27 SEPT</span>
                 <span>Conference Window</span>
@@ -82,14 +82,14 @@ export default function EventOverview() {
               return (
                 <GlassCard key={card.title} delay={idx * 0.15} className="group">
                   <div className="flex gap-4">
-                    <div className={`w-12 h-12 rounded-2xl bg-[#0A1628] border ${card.borderColor} flex items-center justify-center ${card.color} shrink-0 group-hover:scale-110 transition-transform duration-300`}>
+                    <div className={`w-12 h-12 rounded-2xl bg-arctic-blue border ${card.borderColor} flex items-center justify-center ${card.color} shrink-0 group-hover:scale-110 transition-transform duration-300`}>
                       <IconComponent className="w-6 h-6" />
                     </div>
                     <div className="space-y-1">
-                      <h4 className="text-lg font-bold text-[#FAFBFC] group-hover:text-[#00FF87] transition-colors">
+                      <h4 className="text-lg font-bold text-snow group-hover:text-[#00FF87] transition-colors">
                         {card.title}
                       </h4>
-                      <p className="text-xs sm:text-sm text-[#E8F4F8]/70 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-frost-white/70 leading-relaxed">
                         {card.description}
                       </p>
                     </div>

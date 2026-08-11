@@ -16,7 +16,7 @@ export default function ConferenceDays() {
   return (
     <section id="key-dates" className="py-24 relative z-10 scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
-        
+
         {/* Section Heading using site theme */}
         <SectionHeading
           eyebrow="KEY DATES"
@@ -32,10 +32,10 @@ export default function ConferenceDays() {
               <GlassCard
                 key={item.dayNumber}
                 delay={idx * 0.12}
-                className="group flex flex-col justify-between items-center text-center p-8 sm:p-10 relative overflow-hidden min-h-[300px]"
+                className="group flex flex-col justify-between items-center text-center p-8 sm:p-10 relative overflow-hidden min-h-75"
               >
                 {/* Background Watermark Number in JetBrains Mono */}
-                <span className="absolute top-3 right-5 font-mono font-extrabold text-6xl text-[#E8F4F8]/5 group-hover:text-[#00FF87]/15 transition-colors pointer-events-none select-none">
+                <span className="absolute top-3 right-5 font-mono font-extrabold text-6xl text-frost-white/5 group-hover:text-[#00FF87]/15 transition-colors pointer-events-none select-none">
                   {item.dayNumber}
                 </span>
 
@@ -48,16 +48,16 @@ export default function ConferenceDays() {
 
                 {/* Main Date Display */}
                 <div className="my-6 space-y-1">
-                  <span className="block font-bold text-5xl sm:text-6xl text-[#FAFBFC] tracking-tight group-hover:scale-105 group-hover:text-[#00FF87] transition-all duration-300">
+                  <span className="block font-bold text-5xl sm:text-6xl text-snow tracking-tight group-hover:scale-105 group-hover:text-[#00FF87] transition-all duration-300">
                     {item.dateNumber}
                   </span>
-                  <span className="block text-xs font-mono uppercase tracking-widest text-[#E8F4F8]/60">
+                  <span className="block text-xs font-mono uppercase tracking-widest text-frost-white/60">
                     {item.monthYear}
                   </span>
                 </div>
 
                 {/* Day Description */}
-                <p className="text-sm text-[#E8F4F8]/80 leading-relaxed max-w-[260px] group-hover:text-[#FAFBFC] transition-colors">
+                <p className="text-sm text-frost-white/80 leading-relaxed max-w-65 group-hover:text-snow transition-colors">
                   {item.description}
                 </p>
               </GlassCard>

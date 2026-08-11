@@ -80,9 +80,9 @@ export default function EarlyBirdCountdown() {
           <div className="absolute -bottom-24 -right-24 w-72 h-72 rounded-full bg-[#00D4FF]/15 blur-3xl pointer-events-none" />
 
           <div className="relative z-10 text-center space-y-8">
-            
+
             {/* Header Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#0A1628] border border-[#00FF87]/40 text-xs font-mono text-[#00FF87] tracking-widest uppercase">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-arctic-blue border border-[#00FF87]/40 text-xs font-mono text-[#00FF87] tracking-widest uppercase">
               <Sparkles className="w-3.5 h-3.5 animate-pulse" />
               <span>{EVENT_CONFIG.earlyBird.label}</span>
             </div>
@@ -97,17 +97,17 @@ export default function EarlyBirdCountdown() {
               ) : (
                 <>
                   <div className="flex items-center justify-center gap-3">
-                    <span className="text-4xl sm:text-6xl md:text-7xl font-extrabold font-mono text-[#FAFBFC] tracking-tight">
+                    <span className="text-4xl sm:text-6xl md:text-7xl font-extrabold font-mono text-snow tracking-tight">
                       {EVENT_CONFIG.earlyBird.price}
                     </span>
                     <div className="text-left">
                       <span className="block text-xs font-mono text-[#00FF87] uppercase tracking-wider">
                         Special Rate
                       </span>
-                      <span className="block text-xs text-[#E8F4F8]/50">Per Delegate</span>
+                      <span className="block text-xs text-frost-white/50">Per Delegate</span>
                     </div>
                   </div>
-                  <p className="text-sm sm:text-base text-[#E8F4F8]/70 max-w-xl mx-auto">
+                  <p className="text-sm sm:text-base text-frost-white/70 max-w-xl mx-auto">
                     {EVENT_CONFIG.earlyBird.description}
                   </p>
                 </>
@@ -125,7 +125,7 @@ export default function EarlyBirdCountdown() {
                   {timeUnits.map((unit) => (
                     <div
                       key={unit.label}
-                      className="p-4 sm:p-5 rounded-2xl bg-[#0E1E38] border-2 border-[#00FF95]/40 hover:border-[#00FF95] transition-all duration-300 shadow-[0_0_20px_rgba(0,255,149,0.15)] hover:shadow-[0_0_30px_rgba(0,255,149,0.35)]"
+                      className="p-4 sm:p-5 rounded-2xl bg-[#0E1E38] border-2 border-aurora-green/40 hover:border-aurora-green transition-all duration-300 shadow-[0_0_20px_rgba(0,255,149,0.15)] hover:shadow-[0_0_30px_rgba(0,255,149,0.35)]"
                     >
                       <div className="h-12 sm:h-14 flex items-center justify-center overflow-hidden">
                         <AnimatePresence mode="popLayout">
@@ -135,13 +135,13 @@ export default function EarlyBirdCountdown() {
                             animate={{ y: 0, opacity: 1, scale: 1 }}
                             exit={{ y: -20, opacity: 0, scale: 0.9 }}
                             transition={{ duration: 0.3 }}
-                            className="text-3xl sm:text-4xl font-extrabold font-mono text-[#00FF95] glow-text-green tracking-wider"
+                            className="text-3xl sm:text-4xl font-extrabold font-mono text-aurora-green glow-text-green tracking-wider"
                           >
                             {mounted ? String(unit.value).padStart(2, "0") : "00"}
                           </motion.span>
                         </AnimatePresence>
                       </div>
-                      <span className="block text-[10px] sm:text-xs font-mono text-[#00E5FF] tracking-widest mt-1 uppercase font-semibold">
+                      <span className="block text-[10px] sm:text-xs font-mono text-ice-cyan tracking-widest mt-1 uppercase font-semibold">
                         {unit.label}
                       </span>
                     </div>
@@ -161,7 +161,7 @@ export default function EarlyBirdCountdown() {
               >
                 <span>Register Now</span>
               </Button>
-              
+
               <Button
                 href="#campus"
                 external={false}
@@ -174,7 +174,7 @@ export default function EarlyBirdCountdown() {
             </div>
 
             {/* Timezone Note */}
-            <p className="text-[11px] font-mono text-[#E8F4F8]/40">
+            <p className="text-[11px] font-mono text-frost-white/40">
               * Deadline: August 31, 2026 at 11:59:59 PM BST (UTC+06:00)
             </p>
 

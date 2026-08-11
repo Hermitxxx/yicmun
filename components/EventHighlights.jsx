@@ -17,7 +17,7 @@ export default function EventHighlights() {
   return (
     <section id="highlights" className="py-24 relative z-10 scroll-mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
-        
+
         <SectionHeading
           eyebrow="EVENT HIGHLIGHTS"
           title="What Makes YICMUN 2026 Exceptional"
@@ -45,7 +45,7 @@ export default function EventHighlights() {
                     <div className={`w-14 h-14 rounded-2xl border flex items-center justify-center ${accentColors[idx % accentColors.length]} group-hover:scale-110 transition-transform duration-300`}>
                       <Icon className="w-7 h-7" />
                     </div>
-                    <span className="text-xs font-mono text-[#E8F4F8]/40 font-semibold">
+                    <span className="text-xs font-mono text-frost-white/40 font-semibold">
                       0{idx + 1}
                     </span>
                   </div>
@@ -54,17 +54,17 @@ export default function EventHighlights() {
                     <span className="block text-xs font-mono uppercase tracking-wider text-[#00D4FF] mb-1">
                       {pillar.subtitle}
                     </span>
-                    <h3 className="text-2xl font-bold text-[#FAFBFC] group-hover:text-[#00FF87] transition-colors">
+                    <h3 className="text-2xl font-bold text-snow group-hover:text-[#00FF87] transition-colors">
                       {pillar.title}
                     </h3>
                   </div>
 
-                  <p className="text-sm sm:text-base text-[#E8F4F8]/75 leading-relaxed">
+                  <p className="text-sm sm:text-base text-frost-white/75 leading-relaxed">
                     {pillar.description}
                   </p>
                 </div>
 
-                <div className="pt-4 border-t border-[#E8F4F8]/10 flex items-center justify-between text-xs font-mono text-[#00FF87]">
+                <div className="pt-4 border-t border-frost-white/10 flex items-center justify-between text-xs font-mono text-[#00FF87]">
                   <span>YICMUN 2026 Core Feature</span>
                   <ArrowUpRight className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                 </div>

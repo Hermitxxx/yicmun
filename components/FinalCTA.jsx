@@ -9,7 +9,7 @@ export default function FinalCTA() {
   return (
     <section className="py-28 relative z-10 overflow-hidden">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -18,17 +18,17 @@ export default function FinalCTA() {
           className="relative rounded-3xl p-10 sm:p-16 glass-panel border border-[#00FF87]/40 text-center space-y-8 overflow-hidden shadow-[0_0_80px_rgba(0,255,135,0.15)]"
         >
           {/* Intense Moving Background Aurora Lights */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#00FF87]/10 via-[#7B2FBE]/20 to-[#00D4FF]/10 opacity-70 pointer-events-none" />
-          <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-[radial-gradient(circle,_rgba(0,255,135,0.2)_0%,_transparent_70%)] blur-3xl pointer-events-none" />
+          <div className="absolute inset-0 bg-linear-to-r from-[#00FF87]/10 via-[#7B2FBE]/20 to-[#00D4FF]/10 opacity-70 pointer-events-none" />
+          <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-150 h-150 rounded-full bg-[radial-gradient(circle,rgba(0,255,135,0.2)_0%,transparent_70%)] blur-3xl pointer-events-none" />
 
           <div className="relative z-10 space-y-6 max-w-3xl mx-auto">
-            
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#0A1628] border border-[#00FF87]/40 text-xs font-mono text-[#00FF87] tracking-widest uppercase">
+
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-arctic-blue border border-[#00FF87]/40 text-xs font-mono text-[#00FF87] tracking-widest uppercase">
               <Sparkles className="w-3.5 h-3.5 animate-pulse" />
               <span>YICMUN 2026 REGISTRATION IS OPEN</span>
             </div>
 
-            <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-[#FAFBFC] tracking-tight leading-[1.1]">
+            <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-snow tracking-tight leading-[1.1]">
               Ready to take your seat at the table?
             </h2>
 
@@ -36,7 +36,7 @@ export default function FinalCTA() {
               DEBATE. DIPLOMACY. DIRECTION.
             </p>
 
-            <p className="text-base sm:text-lg text-[#E8F4F8]/80 leading-relaxed font-normal max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg text-frost-white/80 leading-relaxed font-normal max-w-2xl mx-auto">
               Join delegates from across the region for three unforgettable days of diplomacy, debate, and youth leadership in Dhaka. Early Bird rate of ৳1,750 BDT available for a limited time.
             </p>
 
@@ -65,7 +65,7 @@ export default function FinalCTA() {
               </Button>
             </div>
 
-            <p className="text-xs font-mono text-[#E8F4F8]/50 pt-2">
+            <p className="text-xs font-mono text-frost-white/50 pt-2">
               Registration forms hosted securely via Google Forms • 25–27 September 2026
             </p>
 

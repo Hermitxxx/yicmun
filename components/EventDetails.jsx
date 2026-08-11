@@ -59,7 +59,7 @@ export default function EventDetails() {
   return (
     <section className="py-24 relative z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
-        
+
         <SectionHeading
           eyebrow="EVENT DETAILS & STEPS"
           title="Important Information for Delegates"
@@ -73,21 +73,21 @@ export default function EventDetails() {
             return (
               <GlassCard key={item.title} delay={idx * 0.1} className="space-y-4">
                 <div className="flex items-center justify-between">
-                  <div className={`w-10 h-10 rounded-xl bg-[#0A1628] border border-[#E8F4F8]/15 flex items-center justify-center ${item.accent}`}>
+                  <div className={`w-10 h-10 rounded-xl bg-arctic-blue border border-frost-white/15 flex items-center justify-center ${item.accent}`}>
                     <Icon className="w-5 h-5" />
                   </div>
-                  <span className="text-[10px] font-mono text-[#E8F4F8]/40 uppercase tracking-widest">
+                  <span className="text-[10px] font-mono text-frost-white/40 uppercase tracking-widest">
                     Metadata
                   </span>
                 </div>
                 <div>
-                  <h4 className="text-xs font-mono text-[#E8F4F8]/60 uppercase tracking-wider">
+                  <h4 className="text-xs font-mono text-frost-white/60 uppercase tracking-wider">
                     {item.title}
                   </h4>
-                  <p className="text-lg font-bold text-[#FAFBFC] mt-0.5">
+                  <p className="text-lg font-bold text-snow mt-0.5">
                     {item.value}
                   </p>
-                  <p className="text-xs text-[#E8F4F8]/70 mt-1">
+                  <p className="text-xs text-frost-white/70 mt-1">
                     {item.detail}
                   </p>
                 </div>
@@ -99,8 +99,8 @@ export default function EventDetails() {
         {/* Simple 3-Step Guide */}
         <div className="pt-8 space-y-8">
           <div className="text-center">
-            <h3 className="text-2xl font-bold text-[#FAFBFC]">How Registration Works</h3>
-            <p className="text-sm text-[#E8F4F8]/70">Simple, streamlined registration via official forms</p>
+            <h3 className="text-2xl font-bold text-snow">How Registration Works</h3>
+            <p className="text-sm text-frost-white/70">Simple, streamlined registration via official forms</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -109,8 +109,8 @@ export default function EventDetails() {
                 <span className="text-3xl font-extrabold font-mono text-[#00FF87]/30 block">
                   {s.step}
                 </span>
-                <h4 className="text-lg font-bold text-[#FAFBFC]">{s.title}</h4>
-                <p className="text-xs sm:text-sm text-[#E8F4F8]/70 leading-relaxed">
+                <h4 className="text-lg font-bold text-snow">{s.title}</h4>
+                <p className="text-xs sm:text-sm text-frost-white/70 leading-relaxed">
                   {s.description}
                 </p>
               </GlassCard>
