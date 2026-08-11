@@ -36,18 +36,15 @@ export default function Footer() {
   };
 
   const navLinks = [
-    { name: "About YICMUN", href: "#overview" },
+    { name: "Key Dates", href: "#key-dates" },
+    { name: "Venue", href: "#venue" },
     { name: "Early Bird Rate", href: "#early-bird" },
-    { name: "Event Highlights", href: "#highlights" },
     { name: "Delegate Registration", href: "#delegate" },
     { name: "Campus Registration", href: "#campus" },
   ];
 
   const socialLinks = [
-    { name: "Facebook", icon: FacebookIcon, href: "#" },
-    { name: "Instagram", icon: InstagramIcon, href: "#" },
-    { name: "LinkedIn", icon: LinkedinIcon, href: "#" },
-    { name: "Twitter", icon: TwitterIcon, href: "#" },
+    { name: "Instagram", icon: InstagramIcon, href: "https://www.instagram.com/yicmun.official_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" },
   ];
 
   return (
