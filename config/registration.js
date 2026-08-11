@@ -74,7 +74,7 @@ export const EVENT_CONFIG = {
   registrationLinks: {
     // Official Google Forms (Can be updated anytime)
     delegate: process.env.NEXT_PUBLIC_DELEGATE_FORM_URL || "https://docs.google.com/forms/d/e/1FAIpQLSdS7EmteqIgDLkwEfHBr4JmhmtXKzXt45xppT_-zmgxPkX6Yw/viewform?usp=dialog",
-    campus: process.env.NEXT_PUBLIC_CAMPUS_FORM_URL || "https://docs.google.com/forms/d/e/1FAIpQLSdS7EmteqIgDLkwEfHBr4JmhmtXKzXt45xppT_-zmgxPkX6Yw/viewform?usp=dialog",
+    campus: process.env.NEXT_PUBLIC_CAMPUS_FORM_URL || "https://docs.google.com/forms/d/e/1FAIpQLSen28hwg34nm82w-Q8fxMpJaPJNzRG5bXOE_082B_gSuM6wKg/viewform?usp=dialog",
   },
 
   // Key Event Highlights / Pillars
