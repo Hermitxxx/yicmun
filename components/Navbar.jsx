@@ -66,13 +66,13 @@ export default function Navbar() {
           onClick={(e) => handleNavClick(e, "#")}
           className="flex items-center gap-3 group focus:outline-none"
         >
-          <div className="w-10 h-10 rounded-xl bg-arctic-blue border border-[#00FF87]/30 flex items-center justify-center p-1.5 group-hover:border-[#00FF87] group-hover:shadow-[0_0_15px_rgba(0,255,135,0.3)] transition-all duration-300">
+          <div className="w-12 h-12 overflow-hidden rounded-xl bg-arctic-blue border border-[#00FF87]/30 flex items-center justify-center p-1.5 group-hover:border-[#00FF87] group-hover:shadow-[0_0_15px_rgba(0,255,135,0.3)] transition-all duration-300">
             <Image
-              src="/assets/yicmun-new-logo.jpeg"
+              src="/assets/yicmun.png"
               alt="Youth International Council MUN Logo"
-              width={32}
-              height={32}
-              className="object-cover group-hover:scale-110 transition-transform duration-300"
+              width={100}
+              height={100}
+              className="group-hover:scale-110 object-contain w-full transition-transform duration-300"
             />
           </div>
           <div>

@@ -50,19 +50,19 @@ export default function Footer() {
   return (
     <footer className="relative z-10 bg-[#03060F] border-t border-[#E8F4F8]/10 pt-16 pb-12 text-[#E8F4F8]/70 text-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
-        
+
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 justify-between">
-          
+
           {/* Brand Column */}
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-[#0A1628] border border-[#00FF87]/30 flex items-center justify-center p-1.5">
+              <div className="w-12 h-12 rounded-xl bg-[#0A1628] border border-[#00FF87]/30 flex items-center justify-center p-1.5">
                 <Image
-                  src="/assets/yicmun-new-logo.jpeg"
+                  src="/assets/yicmun.png"
                   alt="YICMUN Logo"
                   width={32}
                   height={32}
-                  className="object-cover"
+                  className="object-contain"
                 />
               </div>
               <div>
