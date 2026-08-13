@@ -32,9 +32,9 @@ export const metadata = {
   description: "Youth International Council Model United Nations (YICMUN) - 25–27 September. DEBATE. DIPLOMACY. DIRECTION.",
   keywords: ["Model United Nations", "YICMUN", "Youth International Council", "Diplomacy", "Debate", "Bangladesh"],
   icons: {
-    icon: "/assets/yicmunlogo.png",
-    shortcut: "/assets/yicmunlogo.png",
-    apple: "/assets/yicmunlogo.png",
+    icon: "/assets/yicmun.png",
+    shortcut: "/assets/yicmun.png",
+    apple: "/assets/yicmun.png",
   },
   openGraph: {
     title: "Youth International Council Model United Nations 2026",
