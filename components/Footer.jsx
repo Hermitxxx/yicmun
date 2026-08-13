@@ -58,11 +58,11 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-xl bg-[#0A1628] border border-[#00FF87]/30 flex items-center justify-center p-1.5">
                 <Image
-                  src="/assets/yicmunlogo.png"
+                  src="/assets/yicmun-new-logo.jpeg"
                   alt="YICMUN Logo"
                   width={32}
                   height={32}
-                  className="object-contain"
+                  className="object-cover"
                 />
               </div>
               <div>

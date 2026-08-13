@@ -68,11 +68,11 @@ export default function Navbar() {
         >
           <div className="w-10 h-10 rounded-xl bg-arctic-blue border border-[#00FF87]/30 flex items-center justify-center p-1.5 group-hover:border-[#00FF87] group-hover:shadow-[0_0_15px_rgba(0,255,135,0.3)] transition-all duration-300">
             <Image
-              src="/assets/yicmunlogo.png"
+              src="/assets/yicmun-new-logo.jpeg"
               alt="Youth International Council MUN Logo"
               width={32}
               height={32}
-              className="object-contain group-hover:scale-110 transition-transform duration-300"
+              className="object-cover group-hover:scale-110 transition-transform duration-300"
             />
           </div>
           <div>
