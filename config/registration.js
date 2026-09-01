@@ -20,8 +20,10 @@ export const EVENT_CONFIG = {
     price: "৳1,750",
     rawPrice: 1750,
     currency: "BDT",
-    // Exact deadline: August 31, 2026 11:59:59 PM BST (UTC+06:00)
-    deadlineISO: "2026-08-31T23:59:59+06:00",
+    // Exact deadline: September 10, 2026 11:59:59 PM BST (UTC+06:00)
+    deadlineISO: "2026-09-10T23:59:59+06:00",
+    deadlineFormatted: "September 10, 2026 at 11:59:59 PM BST (UTC+06:00)",
+    deadlineShort: "September 10, 2026",
     label: "EARLY BIRD REGISTRATION",
     badge: "Limited Time Offer",
     description: "Secure your seat at Youth International Council Model United Nations before the Early Bird window closes.",

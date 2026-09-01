@@ -33,7 +33,7 @@ export default function EventDetails() {
       icon: Sparkles,
       title: "Early Bird Status",
       value: "৳1,750 BDT Rate Active",
-      detail: "Closes August 31, 2026 BST",
+      detail: `Closes ${EVENT_CONFIG.earlyBird.deadlineShort} BST`,
       accent: "text-[#00FF87]",
     },
   ];

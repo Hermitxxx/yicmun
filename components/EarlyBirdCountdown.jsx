@@ -175,7 +175,7 @@ export default function EarlyBirdCountdown() {
 
             {/* Timezone Note */}
             <p className="text-[11px] font-mono text-frost-white/40">
-              * Deadline: August 31, 2026 at 11:59:59 PM BST (UTC+06:00)
+              * Deadline: {EVENT_CONFIG.earlyBird.deadlineFormatted}
             </p>
 
           </div>
