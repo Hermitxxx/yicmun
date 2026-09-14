@@ -38,7 +38,7 @@ export default function DelegateRegistration() {
                   Delegate Registration
                 </h2>
                 <p className="text-sm font-mono text-[#00D4FF]">
-                  Early Bird Price: {EVENT_CONFIG.earlyBird.price} BDT
+                  Registration Fee: {EVENT_CONFIG.fee.delegatePrice} BDT
                 </p>
               </div>
 

@@ -97,7 +97,7 @@ export default function EventVenue() {
           className="flex justify-center pt-2"
         >
           <a
-            href="#early-bird"
+            href="#delegate"
             className="inline-flex items-center gap-2.5 px-8 py-3.5 rounded-full border border-[#00FF87]/40 bg-arctic-blue/80 text-[#00FF87] font-mono text-xs font-semibold tracking-wider uppercase hover:bg-[#00FF87]/10 hover:border-[#00FF87] hover:shadow-[0_0_25px_rgba(0,255,135,0.35)] transition-all duration-300 group"
           >
             <Sparkles className="w-4 h-4 text-[#00FF87] group-hover:rotate-12 transition-transform" />

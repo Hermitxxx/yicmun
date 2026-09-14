@@ -96,7 +96,7 @@ export default function Hero() {
             </span>
           </motion.div>
 
-          {/* 6. Early Bird Registration Forms / Dual CTAs */}
+          {/* 6. Registration Forms / Dual CTAs */}
           <motion.div
             variants={itemVariants}
             className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4 w-full sm:w-auto"
@@ -124,16 +124,16 @@ export default function Hero() {
             </Button>
           </motion.div>
 
-          {/* Early Bird Rate Badge */}
+          {/* Registration Rate Badge */}
           <motion.div
             variants={itemVariants}
             className="pt-1 flex flex-wrap items-center justify-center gap-3 text-xs text-frost-white/60 font-mono"
           >
             <div className="flex items-center gap-1.5 px-3 py-1 rounded-md bg-arctic-blue border border-[#00FF87]/20 text-[#00FF87]">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Early Bird Rate: {EVENT_CONFIG.earlyBird.price} BDT</span>
+              <span>Registration Fee: {EVENT_CONFIG.fee.price} BDT</span>
             </div>
-            <span className="text-frost-white/40">• Limited Slots Available</span>
+            <span className="text-frost-white/40">• Delegate & Campus Ambassador</span>
           </motion.div>
         </motion.div>
       </div>

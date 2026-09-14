@@ -70,8 +70,11 @@ export default function CampusRegistration() {
                 <h2 className="text-3xl sm:text-4xl font-extrabold text-snow">
                   Campus Registration
                 </h2>
-                <p className="text-sm font-mono text-[#FF6EC7]">
-                  For Schools, Colleges, Universities & MUN Clubs
+                <p className="text-sm font-mono text-[#00D4FF]">
+                  Registration Fee: {EVENT_CONFIG.fee.campusPrice} BDT
+                </p>
+                <p className="text-xs font-mono text-[#FF6EC7]">
+                  For Campus Ambassadors, Schools, Colleges, Universities & MUN Clubs
                 </p>
               </div>
 

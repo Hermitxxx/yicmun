@@ -15,18 +15,15 @@ export const EVENT_CONFIG = {
   venue: "To Be Announced (Dhaka)",
   organizer: "Youth International Council",
 
-  // Early Bird Registration Details
-  earlyBird: {
-    price: "৳1,750",
-    rawPrice: 1750,
+  // Registration Fee Details
+  fee: {
+    price: "৳1,500",
+    delegatePrice: "৳1,500",
+    campusPrice: "৳1,500",
+    rawPrice: 1500,
     currency: "BDT",
-    // Exact deadline: September 10, 2026 11:59:59 PM BST (UTC+06:00)
-    deadlineISO: "2026-09-10T23:59:59+06:00",
-    deadlineFormatted: "September 10, 2026 at 11:59:59 PM BST (UTC+06:00)",
-    deadlineShort: "September 10, 2026",
-    label: "EARLY BIRD REGISTRATION",
-    badge: "Limited Time Offer",
-    description: "Secure your seat at Youth International Council Model United Nations before the Early Bird window closes.",
+    label: "REGISTRATION FEE",
+    description: "Registration fee of ৳1,500 BDT for Delegates and Campus Ambassadors.",
   },
 
   // Conference Days Schedule Data (Matching Client Design)
@@ -132,9 +129,9 @@ export const EVENT_CONFIG = {
       icon: "UserCheck",
     },
     {
-      label: "Registration Status",
-      value: "Early Bird Live",
-      subtext: "Discounted ৳1,750 Slot Access",
+      label: "Registration Fee",
+      value: "৳1,500 BDT",
+      subtext: "Delegate & Campus Ambassador",
       icon: "Sparkles",
     },
   ],

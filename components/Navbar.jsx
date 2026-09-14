@@ -21,7 +21,6 @@ export default function Navbar() {
   const navLinks = [
     { name: "Key Dates", href: "#key-dates" },
     { name: "Venue", href: "#venue" },
-    { name: "Early Bird", href: "#early-bird" },
     { name: "Delegate", href: "#delegate" },
     { name: "Campus", href: "#campus" },
   ];
@@ -103,8 +102,8 @@ export default function Navbar() {
         {/* Action Button & Mobile Menu Toggle */}
         <div className="flex items-center gap-3">
           <a
-            href="#early-bird"
-            onClick={(e) => handleNavClick(e, "#early-bird")}
+            href="#delegate"
+            onClick={(e) => handleNavClick(e, "#delegate")}
             className="hidden sm:inline-flex items-center gap-2 px-5 py-2 rounded-full text-xs font-semibold bg-linear-to-r from-[#00FF87] to-[#00D4FF] text-[#050B1A] hover:shadow-[0_0_20px_rgba(0,255,135,0.4)] transition-all duration-300 hover:-translate-y-0.5"
           >
             <span>Register Now</span>
@@ -145,8 +144,8 @@ export default function Navbar() {
               ))}
               <div className="pt-2">
                 <a
-                  href="#early-bird"
-                  onClick={(e) => handleNavClick(e, "#early-bird")}
+                  href="#delegate"
+                  onClick={(e) => handleNavClick(e, "#delegate")}
                   className="w-full flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold bg-linear-to-r from-[#00FF87] to-[#00D4FF] text-[#050B1A] cursor-pointer"
                 >
                   <span>Register Now</span>

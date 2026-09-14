@@ -37,7 +37,7 @@ export default function FinalCTA() {
             </p>
 
             <p className="text-base sm:text-lg text-frost-white/80 leading-relaxed font-normal max-w-2xl mx-auto">
-              Join delegates from across the region for three unforgettable days of diplomacy, debate, and youth leadership in Dhaka. Early Bird rate of ৳1,750 BDT available for a limited time.
+              Join delegates from across the region for three unforgettable days of diplomacy, debate, and youth leadership in Dhaka. Registration fee is {EVENT_CONFIG.fee.price} BDT for both Delegates and Campus Ambassadors.
             </p>
 
             {/* Dual CTAs */}

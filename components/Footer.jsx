@@ -38,7 +38,6 @@ export default function Footer() {
   const navLinks = [
     { name: "Key Dates", href: "#key-dates" },
     { name: "Venue", href: "#venue" },
-    { name: "Early Bird Rate", href: "#early-bird" },
     { name: "Delegate Registration", href: "#delegate" },
     { name: "Campus Registration", href: "#campus" },
   ];
