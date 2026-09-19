@@ -12,7 +12,7 @@ export const EVENT_CONFIG = {
   formattedDates: "25TH, 26TH & 27TH SEPTEMBER 2026",
   shortDates: "25–27 Sept 2026",
   location: "Dhaka, Bangladesh",
-  venue: "To Be Announced (Dhaka)",
+  venue: "Northern University Bangladesh, Permanent Campus",
   organizer: "Youth International Council",
 
   // Registration Fee Details
@@ -51,21 +51,34 @@ export const EVENT_CONFIG = {
     },
   ],
 
-  // Venue Data (Classified / Mystery State)
+  // Official Venue Data
+  venueInfo: {
+    name: "Northern University Bangladesh",
+    campus: "Permanent Campus",
+    dates: "25–27 September 2026",
+    daysBadge: "ALL 3 DAYS · 25TH, 26TH & 27TH SEPT",
+    address: "111/2 Kawlar Jame Mosjid Road, Ashkona, Dakshinkhan, Dhaka-1230",
+    landmark: "Near Hajj Camp & Hazrat Shahjalal International Airport",
+    city: "Dhaka, Bangladesh",
+    description: "Northern University Bangladesh, Permanent Campus serves as the official host venue for YICMUN 2026 across all three days, featuring modern auditoriums, plenary committee rooms, and conference facilities for high-level diplomatic debate.",
+    mapsUrl: "https://maps.google.com/?q=Northern+University+Bangladesh+Permanent+Campus",
+    highlights: [
+      "Modern Multipurpose Auditoriums",
+      "Executive Committee Rooms",
+      "Spacious Delegate Lounges",
+      "Secure & Accessible Campus",
+    ],
+  },
   venues: [
     {
-      dates: "DAYS 1 & 2 • 25TH - 26TH SEPT",
-      name: "CLASSIFIED LOCATION I",
-      code: "VENUE // CLASSIFIED",
-      description: "",
+      dates: "ALL 3 DAYS · 25TH–27TH SEPT 2026",
+      name: "Northern University Bangladesh",
+      campus: "Permanent Campus",
+      address: "111/2 Kawlar Jame Mosjid Road, Ashkona, Dakshinkhan, Dhaka-1230",
+      landmark: "Near Hajj Camp & Airport",
+      description: "Official host venue for YICMUN 2026 across all three days of high-level multilateral debate.",
       isPrimary: true,
-    },
-    {
-      dates: "DAY 3 • 27TH SEPT",
-      name: "CLASSIFIED LOCATION II",
-      code: "VENUE // CONFIDENTIAL",
-      description: "",
-      isPrimary: false,
+      mapsUrl: "https://maps.google.com/?q=Northern+University+Bangladesh+Permanent+Campus",
     },
   ],
 
@@ -112,14 +125,14 @@ export const EVENT_CONFIG = {
   details: [
     {
       label: "Event Dates",
-      value: "18–20 June 2026",
+      value: "25–27 September 2026",
       subtext: "3 Days of Intensive Simulation",
       icon: "Calendar",
     },
     {
       label: "Location",
       value: "Dhaka, Bangladesh",
-      subtext: "Mastermind Campus & Le Méridien",
+      subtext: "Northern University Bangladesh, Permanent Campus",
       icon: "MapPin",
     },
     {
